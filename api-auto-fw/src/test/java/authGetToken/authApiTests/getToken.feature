@@ -4,7 +4,7 @@ Background:
 
 
 Scenario: Login and Get Token
-    Given url "http://192.168.100.113:3004/"
+    Given url "http://192.168.1.82:3004/"
     Given path 'auth/login'
     And request  {  "username": "admin",   "password": "password"   }
     When method post

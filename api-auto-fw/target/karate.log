@@ -1,30 +1,30 @@
-16:12:18.666 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-16:12:20.013 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
-16:12:22.089 [pool-1-thread-1] DEBUG com.intuit.karate - request:
-1 > POST http://192.168.100.113:3004/auth/login
+04:49:32.500 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:49:33.889 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+04:49:35.898 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > POST http://192.168.1.82:3004/auth/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 42
-1 > Host: 192.168.100.113:3004
+1 > Host: 192.168.1.82:3004
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_212)
 1 > Accept-Encoding: gzip,deflate
 {"username":"admin","password":"password"}
 
-16:12:22.277 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 177
+04:49:36.625 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 717
 1 < 200
 1 < Content-Length: 0
-1 < Date: Sun, 11 Dec 2022 16:12:23 GMT
+1 < Date: Sun, 25 Dec 2022 04:49:37 GMT
 1 < Keep-Alive: timeout=60
 1 < Connection: keep-alive
-1 < Set-Cookie: token=SSnUkflC4PPhIKjc; Domain=192.168.100.113
+1 < Set-Cookie: token=m2UIEuAvmJlSMwrp; Domain=192.168.1.82
 
 
-16:12:22.293 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
+04:49:36.644 [pool-1-thread-1] INFO  com.intuit.karate - [print] {
   "Content-Length": [
     "0"
   ],
   "Date": [
-    "Sun, 11 Dec 2022 16:12:23 GMT"
+    "Sun, 25 Dec 2022 04:49:37 GMT"
   ],
   "Keep-Alive": [
     "timeout=60"
@@ -33,9 +33,9 @@
     "keep-alive"
   ],
   "Set-Cookie": [
-    "token=SSnUkflC4PPhIKjc; Domain=192.168.100.113"
+    "token=m2UIEuAvmJlSMwrp; Domain=192.168.1.82"
   ]
 }
  
-16:12:22.307 [pool-1-thread-1] INFO  com.intuit.karate - [print] token=SSnUkflC4PPhIKjc; Domain=192.168.100.113 
-16:12:23.374 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:authGetToken/authApiTests/getToken.feature
+04:49:36.658 [pool-1-thread-1] INFO  com.intuit.karate - [print] token=m2UIEuAvmJlSMwrp; Domain=192.168.1.82 
+04:49:37.840 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:authGetToken/authApiTests/getToken.feature
